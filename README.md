@@ -1,5 +1,14 @@
 # React + Vite
 
+Garzon Pablo Daniel, Pablodan7
+Giron Luciano Gabriel, Lucianogiron10 
+Guanuco Carlos, guanuco96
+Perez Ruarte Lisandro Yamil, LisandroPR
+
+
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
