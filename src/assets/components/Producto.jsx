@@ -1,3 +1,5 @@
+import mostrar_objetos from "./funcion1_EJ_AD"  //importa la funcion para mostrar los objetos
+
 function Producto(){
 
     //DECLARACION DE OBJETOS
@@ -22,8 +24,10 @@ function Producto(){
         precio: 150,
     }
 
+    //OBJETOS DENTRO DEL ARRAY
     const productos = [ producto1, producto2, producto3, producto4, producto5];
-    return 10;
+    
+    mostrar_objetos(productos); //ejercicio 1
 }
 
 export default Producto;    // exporto el componente producto
