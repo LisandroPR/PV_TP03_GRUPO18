@@ -24,4 +24,6 @@ const TaskInput = ({ onAddTask }) => {
     );
 };
 
+
 export default TaskInput;
+
