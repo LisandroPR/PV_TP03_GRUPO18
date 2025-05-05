@@ -1,5 +1,6 @@
 import React from 'react';
-import Tareas from './assets/components/Tareas';
+
+import Tareas from './assets/components/tareas';
 
 import Producto from './assets/components/Producto'   //Importo el componente producto
 
@@ -20,3 +21,4 @@ function App() {
 }
 
 export default App;
+
