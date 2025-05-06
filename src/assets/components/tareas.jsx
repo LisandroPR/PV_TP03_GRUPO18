@@ -12,7 +12,7 @@ const Tareas = () => {
         };
         setTasks([...tasks, newTask]);
         };
-
+  
     return (
     <div>
         <TaskInput onAddTask={addTask} />
