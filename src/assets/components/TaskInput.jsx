@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-const TaskInput = ({ onAddTask }) => {
-    const [inputValue, setInputValue] = useState('');
+const TaskInput = ({ onAdd }) => {
+    const [input, setInput] = useState('');
 
     const noRecargar = (e) => {
         e.preventDefault(); //para que no se recargue la pag
-        if (inputValue.trim()) { //verifica que no este vacio
-        onAddTask(inputValue);
-        setInputValue('');
+        if (input.trim()) { //verifica que no este vacio
+        onAdd(input);
+        setInput('');
         }
 };
 
@@ -16,8 +16,8 @@ const TaskInput = ({ onAddTask }) => {
         <input
             type="text"
             placeholder="Nueva tarea..."
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
         />
         <button type="submit">Agregar</button>
     </form>

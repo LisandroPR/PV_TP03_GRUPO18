@@ -58,7 +58,7 @@ function Producto() {
 
   return (
     <div>
-      <h2>Lista de productos</h2>
+      <h1>Lista de productos</h1>
       <ul>
         {productos.map((p, index) => (
           <li key={index}>
