@@ -13,7 +13,6 @@ function App() {
       </div>
       <div className="productos">
         <Producto />
-        <h1>Productos</h1>
       </div>
     </div>
   );
