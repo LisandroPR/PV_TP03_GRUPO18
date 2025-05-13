@@ -1,18 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import React from 'react';
+import "./App.css";
+import Tareas from './assets/components/tareas';
+import { useState } from 'react'; 
 import Producto from './assets/components/Producto'   //Importo el componente producto
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
-    <>
-      <Producto/>    {/* Se renderiza Producto*/}
-    </>
-  )
-}
+    <div className="ambos">
+      <div className="tareas">
+        <Tareas />
+      </div>
+      <div className="productos">
+        <Producto />
+      </div>
+    </div>
+  );
+};
 
-export default App
+export default App;
+

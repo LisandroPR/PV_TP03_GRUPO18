@@ -1,3 +1,4 @@
+
 function Producto() 
 {
   let productos_array = []; // arreglo para guardar los productos
@@ -165,6 +166,7 @@ function Producto()
       <ul id="lista_productos"></ul>  {/*lista de productos en una lista desordenada*/}
 
     </>
+
   );
 }
 
